@@ -48,6 +48,7 @@ sudo systemctl enable mosquitto
     ```
     
     add. You can also add username and password if you don't want to allow it.
+      Note: If the MQTT Client is unable to connect, try turning off the firewall.
     
 - Test (subscriber and publisher run on different terminals):
     
